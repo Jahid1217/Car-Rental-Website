@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background-color: #343a40;
+    color: white;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Booking status badges */
+.badge-pending {
+    background-color: #6c757d;
+}
+
+.badge-approved {
+    background-color: #28a745;
+}
+
+.badge-rejected {
+    background-color: #dc3545;
+}
+
+.badge-cancelled {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 0;
+        text-align: center;
+    }
+    
+    .hero-section img {
+        margin-top: 1rem;
+    }
+}
